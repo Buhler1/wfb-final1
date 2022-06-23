@@ -83,3 +83,65 @@ li {
    border-radius: 5px 5px 5px 5px;
    font-family: 'Roboto', sans-serif;
 }
+
+#logo {
+    height: 100px;
+    width: 100px;
+    margin-top: 10px;
+    border-radius: 25px;
+    
+}
+
+/* MAIN BODY */
+
+#title {
+    padding-top: 20px;
+    color: #fff;
+    text-shadow: 1px 1px 4px #000;
+}
+
+hr {
+    border-color: #000;
+    margin-top: -2px;
+}
+
+.list {
+    font-family: 'Roboto' , sans-serif;
+    text-align: center;
+    margin-right: 30px;
+    color: #fff;
+    text-shadow: 1px 1px 4px #000;
+}
+
+.aboutimg {
+    border-radius: 5px;
+    margin: 10px;
+    height: 300px;
+    width: 400px;
+}
+
+.list-text {
+    font-size: 35px;
+    font-style: bold;
+    padding: 10px;
+}
+
+/* FOOTER SECTION */
+
+footer {
+    color: #fff;
+    height: 150px;
+    width: 100%;
+    position: relative;
+}
+
+.fa {
+    font-size: 64px;
+    padding: 0 12px;
+    color: #CAF0F8;
+}
+
+#social-media {
+    text-align: center;
+    padding-top: 36px;
+}
