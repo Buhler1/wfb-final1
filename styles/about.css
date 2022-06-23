@@ -1,0 +1,85 @@
+
+/* UNIVERSALS */
+
+html, body {
+    height:100%;
+    width:100%;
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+
+.background {
+    background: rgb(2,0,36);
+    background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+}
+
+
+a {
+    text-decoration: none;
+    color: #03045E;
+}
+
+a:visited {
+    color: #00B4D8;
+ }
+
+a:hover {
+    color: #03045E;
+}
+
+
+body {
+    height: 800px;
+}
+/* HEADER STYLES */
+
+header {
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 50px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+
+.first-content {
+    height: 400px;
+    width: 100%;
+    margin-top: -127px;
+    background-image: url('../img/aboutHero.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Roboto' , sans-serif;
+    text-align: center;
+}
+
+#hero-text {
+    color: #fff;
+    width: 615px;
+    margin-left: 31.5%;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 50px;
+    text-shadow: 1px 1px 4px #000;
+}
+
+#nav-links {
+    float: right;
+    
+}
+
+li {
+    list-style: none;
+    display: inline;
+}
+
+#nav-links li {
+   padding: 10px;
+   background-color:  #fff;
+   border-radius: 5px 5px 5px 5px;
+   font-family: 'Roboto', sans-serif;
+}
