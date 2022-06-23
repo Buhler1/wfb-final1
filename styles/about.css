@@ -111,18 +111,19 @@ hr {
     margin-right: 30px;
     color: #fff;
     text-shadow: 1px 1px 4px #000;
+    font-size: 24px;
 }
 
 .aboutimg {
     border-radius: 5px;
     margin: 10px;
-    height: 300px;
-    width: 400px;
+    height: 428px;
+    width: 639px;
 }
 
 .list-text {
     font-size: 35px;
-    font-style: bold;
+    font-weight: bold;
     padding: 10px;
 }
 
@@ -144,4 +145,10 @@ footer {
 #social-media {
     text-align: center;
     padding-top: 36px;
+}
+
+#copyright {
+    text-align: center;
+    margin-bottom: -15px;
+    font-family: 'Roboto', sans-serif;
 }
